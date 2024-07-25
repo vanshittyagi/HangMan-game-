@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="victory">
+        <div class="content">
+        <img src="Happy GIF - Happy - Discover & Share GIFs.gif" alt="gif">
+        <h1>You Guessed The Correct Word</h1>
+        <button class="playagain2">Play Again</button></div>
+    </div>
+    <div class="fail">
+        <div class="content">
+        <img src="Cat Farsi Sad Sticker - Cat Farsi Sad Cry - Discover & Share GIFs.gif" alt="gif">
+        <h1>You Failed</h1>
+        <p>Correct Word Was: <b> Rainbow </b></p>
+        <button class="playagain">Play Again</button></div>
+    </div>
+    <div class="conatiner">
+        <div class="left">
+            <img src="hangman-0.svg" alt="">
+            <h1>Hangman</h1>
+        </div>
+        <div class="right">
+            <div class="words"></div>
+            <div class="hint">
+                <h1>Hint:</h1>
+                <p></p>
+            </div>
+            <div class="guesscount">Your Chance <b> 0/6 </b> </div>
+            <div class="keyboard"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
